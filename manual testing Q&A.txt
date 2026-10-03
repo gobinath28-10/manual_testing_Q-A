@@ -1,0 +1,162 @@
+Manual questions:
+
+1.Difference between error, defect, bug, failure.
+  Ans: 
+   Error  : A mistake in a code is error.
+            Incorrect human action that produce a problem in software.
+   Defect : Deviation from actual result and expected result.
+   Bug    : A developer accept your defect is valid.
+   failure: A bug identified by a client or end user in the software is called as failure.
+ 
+2.What is meant by build?
+  Ans:
+   A source code is converted to a executive file.
+   
+3.What is meant by deployment?
+  Ans:
+   A build is transfer to another environment is called as build.
+   
+4.What are the faces under SDLC?
+  Ans:
+   1.Requirement gathering and analysis
+   2.Designing
+   3.Developing
+   4.Testing
+   5.Deploy
+   6.Maintenance
+   
+5.What are the faces under STLC?
+  Ans:
+   1.Requirement analysis
+   2.Test plan design
+   3.Test case design
+   4.Test execution
+   5.Test log 
+   6.Defect tracking process
+   7.Test closure 
+   
+6.What are validation techniques?
+  Ans:
+   1.It is meant by dynamic testing.
+   2.It is an approach to test the actual software by giving input and output.
+   
+7.What are the test case design techniques in software testing?
+  Ans:
+   1.Deriving the test cases directly from requirement specification.
+   2.Blackbox design techniques.
+   3.Boundary level analysis.
+   4.Equivalent partitioning.
+   
+8.Blackbox design techniques.
+  Ans:
+   1.Testing the application without the knowledge of coding and programming skills.
+   2.To check functional behaviour of applications.
+   3.It performs system testing and UIT testing done by tester.
+   
+9.Explain your bug lifecycle.
+  Ans:
+   New -> Assigned -> Fixed or assigned -> Retested -> verified -> closed.
+                                                    |-> Reopened -> Assigned -> |Rejected| |Differed| |Duplicate|
+													
+10.Explain your testing lifecycle.
+   Ans:
+    Requirement analysis -> Test planning -> test case development -> Test environment setup -> Test execution -> Test closure.
+
+11.Test artifacts.
+   Ans:
+    It is simple integral part of software testing. 
+	They are generally set of documents,
+	  1.Test strategy
+	  2.Test plan 
+	  3.Test scenario
+	  4.Test case5.Traceability matrix
+	  6.Software test report
+	  
+12.Difference between Verification and Validation.
+                  Verification(Static testing)	                 |             Validation(Dynamic testing)
+Check whether we are building the right system.	                 |    Check whether we are building the system right.
+1.Review                                                         |    
+2.Walkthrough                                                    |    1.Actual testing
+3.Inspection	                                                 |    
+It is an approach to test project document in a form of (1,2,3). |	  It is an approach to test a actual software by giving input and output.
+
+13.Condition signoff.
+   Ans:
+    When the software development activities across the deadline and testers as not completed the testing.
+    Tester communicating with test manager.
+
+14.List of testing document followed by company.
+   Ans:
+    1.SRS document(Software requirement Specification): It is prepared by SA(Software Architect) based on client requirement.
+    2.TP(Test plan): Role map of entire test.
+	3.Defect report: After execution defect occurs, we produce a report.
+	4.TC(Test case): Step by step procedure.
+	5.RTM(Requirement traceability matrix): Mapping the requirement with defect and test case.
+	
+15.What is meant by bug leakage?
+   Ans:
+    A defect which exist during testing yet unfounded by the tester or end user is called bug leakage.
+	
+16.What is meant by bug release?
+   Ans:
+    A bug release  is when a particular version of a software is release with set of known bug or defects.
+	The bug are usually low priority and low severity.
+	
+17.What is meant by defect triage?
+   Ans:
+    Large number of defect and limited number of testers are verify them, defect triage helps trying to get as many defect resolved based on defects parameter like severity and priority.
+	
+18.What is end to end testing?
+   Ans:
+    Software testing method that involves testing an application workflow from beginning to end.
+	
+19.What is exploratory?
+   Ans:
+    Test case are created in  advance but testers check system on the fly they may not note down ideas about what to test before test execution.
+	Application and understanding the functionality adding or modifying test cases for better testing.
+	
+20.What is monkey testing?
+   Ans: 
+    Testing the functionality randomly without knowledge of application and test case is called monkey testing.
+	
+21.Adhoc testing.
+   Ans:
+    Software testing performed with planning and documentation without SRS document.
+	
+22.What is retesting?
+   Ans:
+    1.Same functionality to be tested repeatedly.
+	2.Expecting the same test case whether the bug is fixed or not.
+	
+23.What is sanity testing?
+   Ans:
+    Build receiving with minor changes in the code or functionality. Due to this changes any bug introduced in the build or not.
+	
+24.Smoke testing.
+   Ans:
+    It is a initial testing to perform checking the build stability to check the major functionality done by the tester.
+	
+25.What is regression testing?
+   Ans:
+    New functionality added in the existing function or bug fixes to introduced any bug in the existing function or not.
+	
+26.What are testing environment?
+   Ans:
+    1.Dev environment
+	2.QA(Quality assurance)
+	3.UAT(User acceptance testing)
+	4.Staging 
+	5.Production
+	
+27.What is system integration testing?
+   Ans:
+    SIT testing validate that all the software modules dependencies are functionally correct and that data integrity is maintained between separate module for entire solution.
+	
+28.Types under UAT testing.
+   Ans:
+    Alpha : Testing performing develop in environment(developer, client)
+	Beta  : Testing performing in client environment(developer, client, tester)
+	
+29.User acceptance testing(UAT).
+   Ans:
+    After completion of system testing UAT team conducted two level(alpha, beta).
